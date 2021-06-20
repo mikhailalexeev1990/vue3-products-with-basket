@@ -1,19 +1,7 @@
-# vue-app2
+## vue3-products-with-basket
 
-## Project setup
-```
-npm install
-```
+[**Codepen (Compiled Project)**](https://codepen.io/mikhailalexeev1990/project/full/Azpjnz)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- `npm install` - Project setup
+- `npm run serve` - Compiles and hot-reloads for development
+- `npm run build` - Compiles and minifies for production

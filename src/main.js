@@ -1,5 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import store from './store'
+import {createApp} from 'vue';
+import Basket from './vue/basket/Basket.vue';
+import Products from './vue/products/Products.vue';
+import store from './store';
+import './css/main.css';
 
-createApp(App).use(store).mount('#app')
+createApp(Basket).use(store).mount('#vue-basket');
+createApp(Products).use(store).mount('#vue-products');

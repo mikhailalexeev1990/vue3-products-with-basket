@@ -1,0 +1,52 @@
+.card {
+	height: 100%;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+}
+
+.card:hover {
+	cursor: pointer;
+	box-shadow: 1px 1px 10px #ccc;
+}
+
+.modal-content img {
+	height: auto;
+}
+
+.amount-box {
+	align-items: center;
+	min-height: 38px;
+}
+
+.amount-box .-plus, .amount-box .-minus {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	color: var(--bs-green);
+	border: 1px solid var(--bs-green);
+	border-radius: 50%;
+}
+
+.amount-box .-plus:active, .amount-box .-minus:active {
+	color: #146c43;
+	border-color: #146c43;
+	box-shadow: 0 0 0 0.25rem rgb(60 153 110 / 50%);
+}
+
+.amount-box .-amount {
+	width: 35px;
+	margin: 0 10px;
+	text-align: center;
+}
+
+.amount-box .-trash {
+	cursor: pointer;
+	color: var(--bs-red);
+}
